@@ -18,6 +18,7 @@
 		<property name="Delay" value="1.0" />
 		<property name="Change_item_to" value="drinkJarRiverWater" />
 		<property name="Focused_blockname_1" value="HD Working Dispenser" />
+		<property name="Focused_blockname_2" value="HD Working Fridge" />
 		<property name="Sound_start" value="bucketfill_water" />
 	</property>
 	<property class="Action1">
