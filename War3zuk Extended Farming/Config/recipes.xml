@@ -1,0 +1,62 @@
+<configs>
+	
+<append xpath="/recipes">
+
+<recipe name="HDplantedMushroom1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedYucca1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedCotton1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedCoffee1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedGoldenrod1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedAloe1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedBlueberry1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedPotato1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedChrysanthemum1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedCorn1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedHop1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedSnowberry1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedPumpkin1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="foodCropGraceCorn" count="1" craft_time = "0.5">
+	<ingredient name="foodCropCorn" count="10"/>
+</recipe>
+
+</append>
+</configs>
