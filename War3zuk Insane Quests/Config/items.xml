@@ -40,7 +40,7 @@
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="UnlockedBy" value="meleeToolKnifeMacheteSchematic"/>
 	<property name="ShowQuality" value="true"/>
-
+	<property name="DescriptionKey" value="HDMacheteDesc"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Damage_type" value="Slashing"/>
@@ -48,7 +48,6 @@
 		<property name="Sound_start" value="machete_swinglight"/>
 		<property name="ToolCategory.Butcher" value="0" param1="4.7"/>
 		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
-
 		<property name="UseGrazingHits" value="true"/>
 		<property name="GrazeStart" value=".28"/>
 		<property name="GrazeEnd" value=".4"/>
@@ -69,7 +68,6 @@
 		<property name="ToolCategory.Butcher" value="0" param1="4.7"/>
 		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 		<property name="UsePowerAttackAnimation" value="true"/>
-
 		<property name="UseGrazingHits" value="true"/>
 		<property name="IsHorizontalSwing" value="true"/>
 		<property name="GrazeStart" value=".3"/>
@@ -86,18 +84,16 @@
 	<effect_group name="meleeToolKnifeMachete">
 		<passive_effect name="MaxRange" operation="base_set" value="2.3"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="45"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="35"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-
-		<passive_effect name="BlockDamage" operation="base_set" value="20"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="0.5"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="45"/>
 		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="12.6" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="288,673" tier="1,6" tags="perkDeepCuts"/>

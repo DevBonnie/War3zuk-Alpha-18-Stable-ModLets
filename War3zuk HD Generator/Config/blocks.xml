@@ -15,7 +15,7 @@
 	<property name="Model" value="#@modfolder:Resources/HD Gas Generator.unity3d?HD Gas Generator.Prefab"/> <property name="HandleFace" value="Bottom"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-	<property name="DescriptionKey" value="HDGasGeneratorDesc"/>
+	<property name="DescriptionKey" value="powerSourceDesc"/>
 	<property name="MaxFuel" value="40000"/>
 			<property name="OutputPerFuel" value="850000"/>
 			<property name="MaxPower" value="60000"/>

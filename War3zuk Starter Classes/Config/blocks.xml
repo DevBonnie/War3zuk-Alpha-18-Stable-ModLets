@@ -8,14 +8,13 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="DescriptionKey" value="cntVendingMachineGroupDesc"/>
 	<property name="DisplayType" value="blockHardenedMulti"/>
-	<property name="Material" value="Msteel"/>
+	<property name="Material" value="MstainlessSteel"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="StabilitySupport" value="true"/>
 	<property name="Class" value="VendingMachine"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
 	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
-	<property name="CanPickup" value="true" param1="VendingMachineMaster"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
 	<property name="OnlySimpleRotations" value="true"/>
@@ -24,7 +23,6 @@
 	<property class="RepairItems"> <property name="resourceForgedIron" value="10"/> </property>
 	<property name="TraderID" value="3"/>
 	<property name="Stacknumber" value="10"/>
-	<property name="TakeDelay" value="5"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
@@ -33,7 +31,7 @@
 	<property name="Extends" value="VendingMachineMaster"/>
 	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Bruiser VM.Prefab"/>
 	<property name="TraderID" value="16"/>
 	<property name="Stacknumber" value="1"/>
@@ -48,7 +46,7 @@
 	<property name="Extends" value="VendingMachineMaster"/>
 	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Builder VM.Prefab"/>
 	<property name="TraderID" value="10"/>
 	<property name="Stacknumber" value="1"/>
@@ -62,7 +60,7 @@
 	<property name="Extends" value="VendingMachineMaster"/>
 	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Engineer VM.Prefab"/>
 	<property name="TraderID" value="11"/>
 	<property name="Stacknumber" value="1"/>
@@ -76,7 +74,7 @@
 	<property name="Extends" value="VendingMachineMaster"/>
 	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Farmer VM.Prefab"/>
 	<property name="TraderID" value="12"/>
 	<property name="Stacknumber" value="1"/>
@@ -90,7 +88,7 @@
 	<property name="Extends" value="VendingMachineMaster"/>
 	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Gunman VM.Prefab"/>
 	<property name="TraderID" value="13"/>
 	<property name="Stacknumber" value="1"/>
@@ -104,7 +102,7 @@
 	<property name="Extends" value="VendingMachineMaster"/>
 	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Mechanic VM.Prefab"/>
 	<property name="TraderID" value="14"/>
 	<property name="Stacknumber" value="1"/>
@@ -118,7 +116,7 @@
 	<property name="Extends" value="VendingMachineMaster"/>
 	<property name="CustomIcon" value="Class Bruiser VM" />
 	<property name="CreativeMode" value="Dev"/>
-	<property name="MaxDamage" value="50"/>
+	<property name="MaxDamage" value="250"/>
 	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Medic VM.Prefab"/>
 	<property name="TraderID" value="15"/>
 	<property name="Stacknumber" value="1"/>
