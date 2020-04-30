@@ -58,7 +58,6 @@
 	<property name="HeatMapFrequency" value="100"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1"/>
-
 	<property class="Workstation">
 		<property name="Modules" value="output"/>
 		<property name="CraftingAreaRecipes" value="HD GunBench"/>
@@ -67,7 +66,6 @@
 	<property name="OpenSound" value="open_workbench"/>
 	<property name="CloseSound" value="close_workbench"/>
 	<property name="WorkstationJournalTip" value="workbenchTip"/>
-
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="30"/>
 		<property name="resourceMechanicalParts" value="30"/>
@@ -81,7 +79,7 @@
 	<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
-	<property name="TakeDelay" value="15"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="workbenchDesc"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Building,advBuilding"/>
@@ -90,7 +88,7 @@
 </block>
 
 <block name="HD AmmoBench">
-	<property name="CustomIcon" value="HD GunBench" />
+	<property name="CustomIcon" value="HD AmmoBench" />
 	<property name="DescriptionKey" value="HDAmmoBenchDesc"/>
 	<property name="Class" value="Workstation"/>
 	<property name="Material" value="Mmetal"/>
@@ -110,16 +108,14 @@
 	<property name="HeatMapFrequency" value="100"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1"/>
-
 	<property class="Workstation">
-		<property name="Modules" value="output"/>
+		<property name="Modules" value="tools,output"/>
 		<property name="CraftingAreaRecipes" value="HD AmmoBench"/>
 	</property>
 	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
 	<property name="OpenSound" value="open_workbench"/>
 	<property name="CloseSound" value="close_workbench"/>
 	<property name="WorkstationJournalTip" value="workbenchTip"/>
-
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="30"/>
 		<property name="resourceMechanicalParts" value="30"/>
@@ -133,7 +129,7 @@
 	<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
-	<property name="TakeDelay" value="15"/>
+	<property name="TakeDelay" value="5"/>
 	<property name="DescriptionKey" value="workbenchDesc"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Building,advBuilding"/>

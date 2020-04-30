@@ -8,7 +8,8 @@
 	<window name="windowCraftingQueue"/>
 	<window name="windowOutput" />
 	<window name="windowNonPagingHeader" />
-	</window_group>
+	<window name="windowToolsHD GunBench" />
+</window_group>
 	
 <window_group name="workstation_HD AmmoBench" controller="XUiC_WorkstationWindowGroup">
 	<window name="windowCraftingList"/>
@@ -16,7 +17,8 @@
 	<window name="windowCraftingQueue"/>
 	<window name="windowOutput" />
 	<window name="windowNonPagingHeader" />
-	</window_group>
+	<window name="windowToolsHD AmmoBench" />
+</window_group>
 
 </append>
 </configs>
