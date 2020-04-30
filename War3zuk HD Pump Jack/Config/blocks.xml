@@ -23,6 +23,7 @@
 </block>
 
 <block name="HDPumpJackF">
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="HD Pump Jack" />
     <property name="Class" value="Loot" />
    	<property name="Material" value="Mmetal"/>
