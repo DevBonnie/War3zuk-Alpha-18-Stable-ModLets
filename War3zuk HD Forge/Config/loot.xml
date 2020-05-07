@@ -1,4 +1,8 @@
 <configs>
+	
+	<remove xpath="/lootcontainers/lootcontainer[@id='49']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='53']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='60']"></remove>
 
 <append xpath="/lootcontainers">
 <lootcontainer id="49" count="2,4" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualBaseTemplate">
